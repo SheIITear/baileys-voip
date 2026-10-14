@@ -1,0 +1,36 @@
+{
+  "name": "baileys-voip",
+  "author": "ShellTear",
+  "version": "0.1.0",
+  "description": "Pure Node.js WhatsApp VoIP stack scaffold with local crypto, transport, and stanza handling",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*",
+    "src/vendor/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "test:call": "tsx src/examples/test-call-mlow.mts"
+  },
+  "keywords": [
+    "whatsapp",
+    "voip",
+    "nodejs",
+    "srtp",
+    "sframe",
+    "xmpp"
+  ],
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@roamhq/wrtc": "^0.10.0",
+    "@whiskeysockets/baileys": "^7.0.0-rc13"
+  }
+}

@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+*.tsbuildinfo
+
+# Baileys auth state (NEVER commit — contains account credentials)
+auth/
+yeet7/
+baileys_auth_info*/
+*-auth/
+**/creds.json
+**/app-state-sync-*.json
+**/pre-key-*.json
+**/sender-key-*.json
+**/session-*.json
+**/lid-mapping-*.json
+
+# Logs & traces (may contain call keys, SSRCs, peer JIDs)
+logs/
+*.log
+*.jsonl
+
+# Captured / decoded media scratch (keep the repo binary-free)
+testing/
+*.wav
+*.ogg
+*.mp3
+
+# Secrets / local env
+.env
+.env.*
+
+# OS / editor junk
+.DS_Store
+.commandcode/
