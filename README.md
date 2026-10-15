@@ -7,6 +7,8 @@ STUN-based relay allocation. No browser, no bundled WASM runtime, no Docker.
 
 > Research / interoperability project — use responsibly and at your own risk.
 
+[![Example](https://img.youtube.com/vi/hbD-OMV06mo/0.jpg)](https://www.youtube.com/watch?v=hbD-OMV06mo)
+
 ## Requirements
 
 - Node.js 20.9+
